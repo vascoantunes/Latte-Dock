@@ -21,5 +21,5 @@ if(HAVE_X11)
     target_link_libraries(lattedockplugin KF5::WindowSystem)
 endif()
 
-install(TARGETS lattedockplugin DESTINATION ${KDE_INSTALL_QMLDIR}/org/kde/latte)
-install(FILES qmldir DESTINATION ${KDE_INSTALL_QMLDIR}/org/kde/latte)
+install(TARGETS lattedockplugin DESTINATION ${KDE_INSTALL_LIBDIR}/qt5/qml/org/kde/latte)
+install(FILES qmldir DESTINATION ${KDE_INSTALL_LIBDIR}/qt5/qml/org/kde/latte)
